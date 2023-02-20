@@ -1,0 +1,35 @@
+{
+  "name": "ajs-modules-import-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorZigaZaga/ajs-modules-Import-Export.git"
+  },
+  "author": "Viktor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktorZigaZaga/ajs-modules-Import-Export/issues"
+  },
+  "homepage": "https://github.com/ViktorZigaZaga/ajs-modules-Import-Export#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.28.0"
+  }
+}
